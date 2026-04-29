@@ -1,7 +1,7 @@
 # PulsarNet
 Neural network to detect pulsars through FFA plots.
 
-known_pulsars.txt is a file that contains the list of candidates that are ranked as a pulsar by the NANOStars team. This is used for the training process.
+known_pulsars.txt is a file that contains the list of candidates that are ranked as a pulsar by the Frkanlin and Marshall NANOStars team. This is used for the training process.
 
 pulsar_net.py is the main file that does the training and testing of the model, and saves the best model into /checkpoints as best_model.pt. You can either train a model, or if there is
 already a saved model, you can just apply it on the testing set to see how well the model does.
