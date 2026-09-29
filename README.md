@@ -11,7 +11,7 @@ classifying new sets that aren't classified yet using the previously trained mod
 
 S0_json_test_only contains the test set that we used while training our data. It is only 10% of the training data S0.
 
-Installing required packages:
+To install the required packages, run:
 ```bash
 pip install torch numpy opencv-python scikit-learn tqdm
 ```
